@@ -34,3 +34,5 @@ function create_custom_post_types() {
     );
 }
 add_action( 'init', 'create_custom_post_types' );
+
+  <?php if ( function_exists('cn_social_icon') ) echo cn_social_icon(); ?>
