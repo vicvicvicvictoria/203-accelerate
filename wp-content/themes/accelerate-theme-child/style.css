@@ -50,3 +50,8 @@ div.case-study-images{
   float:left;
   width: 606px;
 }
+
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+}
