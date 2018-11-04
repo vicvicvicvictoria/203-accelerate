@@ -34,21 +34,3 @@ function create_custom_post_types() {
     );
 }
 add_action( 'init', 'create_custom_post_types' );
-
-
-
-
-<?php
-$attr = array (
-    'width' => '32', //input only number, in pixel
-    'height' => '32', //input only number, in pixel
-    'margin' => '4', //input only number, in pixel
-    'display' => 'horizontal', //horizontal | vertical
-    'alignment' => 'center', //center | left | right
-    'attr_id' => 'custom_icon_id', //add custom id to <ul> wraper
-    'attr_class' => 'custom_icon_class', //add custom class to <ul> wraper
-    'selected_icons' => array ( '1', '3', '5', '6' )
-    //you can get the icon ID form All Icons page
-);
-if ( function_exists('cn_social_icon') ) echo cn_social_icon( $attr );
-?>
