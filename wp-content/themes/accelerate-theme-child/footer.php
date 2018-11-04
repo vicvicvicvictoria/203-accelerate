@@ -31,7 +31,7 @@
     'attr_class' => 'custom_icon_class', //add custom class to <ul> wraper
     'selected_icons' => array ( '1', '3', '5', '6' )
     //you can get the icon ID form All Icons page
-);
+),
 if ( function_exists('cn_social_icon') ) echo cn_social_icon( $attr );
 ?>
         </nav>
